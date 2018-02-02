@@ -1,6 +1,48 @@
 a {
     color: #222;
 }
-.footer {
+div.footer {
     background-color: #f2f2f2;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+}
+
+.account-icon {
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+}
+.my-row {
+    width: 100%;
+}
+.center {
+    display: block;
+    text-align: center;
+}
+
+.search-button {
+    left: 0;
+    margin: 10px;
+}
+.lucky-button {
+    right: 0;
+    margin: 10px;
+}
+
+div.right {
+    float: right;
+}
+
+div.left {
+    float: left;
+}
+
+.search-input {
+    padding-right: 15px;
+}
+
+.voice-input {
+    margin-left: -15px;
 }

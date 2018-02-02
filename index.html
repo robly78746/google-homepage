@@ -6,32 +6,39 @@
         <link rel="stylesheet" type="text/css" href="./styles/styles.css">
     </head>
     <body>
-        <div class="container-fluid">
-            <div class="row">
-                <a href="#">About</a>
-                <a href="#">Store</a>
-                <a href="#">Gmail</a>
-                <a href="#">Images</a>
-                <a href="#" class="google-apps" title="Google apps"><i class="glyphicon glyphicon-th"></i></a>
-                <a href="#" class="notification" title="0 notifications"><i class="fa fa-bell"></i></a>
-                <a href="#" class="account-icon">R</a>
-            </div>
-            <div class="row banner">
+        <div class="top-bar my-row">
+            <a href="#" class="left">About</a>
+            <a href="#" class="left">Store</a>
+            <a href="#" class="right">Gmail</a>
+            <a href="#" class="right">Images</a>
+            <a href="#" class="google-apps right" title="Google apps"><i class="glyphicon glyphicon-th"></i></a>
+            <a href="#" class="notification right" title="0 notifications"><i class="fa fa-bell"></i></a>
+            <a href="#" class="account-icon right" title="Google Account:">R</a>
+        </div>
+            <div class="banner-row center">
                 <a href="#"><img title="Virginia Woolf's 136th birthday" src="./images/virginia-woolfs-136th-birthday-5857012284915712.6-l.png"></a>
             </div>
-            <div class="row searchBar">
-                <input type="text" name="q" title="Search"><i class="fa fa-microphone" title="Search by voice"></i>
+            <div class="searchBar center">
+                <input type="text" name="q" title="Search" class="search-input"><a href="#"><i class="fa fa-microphone voice-input" title="Search by voice"></i></a>
             </div>
-            <div class="row buttons">
-                <button>Google Search</button>
-                <button>I'm Feeling Lucky</button>
+            <div class="buttons">
+                <span class="buttons-span center">
+                    <button class="search-button">Google Search</button>
+                    <button class="lucky-button">I'm Feeling Lucky</button>
+                </span>
             </div>
-            <div class="row footer">
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
+            <div class="footer my-row">
+                <span>
+                    <div class="left">
+                        <a href="#">Advertising</a>
+                        <a href="#">Business</a>
+                    </div>
+                    <div class="right">
+                        <a href="#" class="right">Privacy</a>
+                        <a href="#" class="right">Terms</a>
+                        <a href="#" class="right">Settings</a>
+                    </div>
+                </span>
             </div>
         </div>
     </body>
